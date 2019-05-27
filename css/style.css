@@ -1,0 +1,142 @@
+body{
+background-image: url("../images/sky-clouds.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+font-size: 22px;
+color: blue;
+
+}
+.weather-logo{
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+}
+
+.weather-top-button{
+    margin-top: 50px;
+}
+
+.get-weather{
+    text-align: center;
+}
+.header{
+    background: white;
+    border-style: dotted;
+    border-width: 5px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#icon{
+    width: 100px;
+    height: 100px;
+}
+li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+
+}
+
+.table-weather{
+padding-left: 20px;
+margin:0;
+padding:0;
+}
+
+.visable{
+    display:none;
+}
+ weather-button{
+    text-align: center;
+}
+
+header{
+    z-index: 2,
+}
+
+.header-fox{
+    font-weight: bold;
+    color: brown;
+    font:24px;
+    text-align: center;
+}
+
+.the-fox{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.whitehorses{
+    width: 910px;
+    height: 300px;
+    max-height: none;
+    margin-bottom: 10px;
+    margin-left: 220px;
+}
+
+h1{
+    color: black;
+    font-weight: bold;
+    font:24px;
+    text-align: center;
+}
+.label-city{
+    font-size: 22px;
+}
+
+
+.article-header{
+    font-weight: bold;
+    font:20px;
+    text-align: center;
+}
+
+h3{
+    font-weight: bold;
+    font:20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.images{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-style{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-control{
+    width: 70%;
+    margin-left: 220px;
+}
+
+.danger{
+    color: red;
+}
+
+.success{
+    color: green;
+}
+.warning{
+    color: yellow;
+}
+.design-weather{
+    text-align: center;
+    padding-top: 100px;
+}
+footer{
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+@media only screen and (max-width: 600px) {
+     iframe{
+         display:none;
+     }
+}
